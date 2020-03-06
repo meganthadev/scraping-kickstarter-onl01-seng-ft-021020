@@ -10,7 +10,11 @@ end
    projects = {}
    
   kickstarter.css("li.project.grid_4").each do |project|
-    projects[project] = {}
+    title = 
+    project.css("h2.bb card_name strong a").text 
+      projects[title.to_sym] = {}
+    end 
+    projects
   end
    
    
