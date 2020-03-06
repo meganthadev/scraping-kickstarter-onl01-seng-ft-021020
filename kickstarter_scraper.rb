@@ -6,7 +6,8 @@ require "pry"
   end
 
   kickstarter = Nokogiri::HTML(html)
-  binding.pry
+   binding.pry
+  end 
  
 
 create_project_hash
